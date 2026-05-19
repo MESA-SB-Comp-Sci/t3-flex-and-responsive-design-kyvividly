@@ -2,30 +2,36 @@
   box-sizing: border-box;
 }
 header{
-  /* Add height and width here */
+  height: 35vh;
+  width: 100vw;
   background-color: lightcyan;
   text-align: center;
 }
 
 .middle-section{
-  /* Add height and width here */
-  background-color: lightpink;
-  /* Add flex properties here */
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
 }
 
 aside{
-  /* Add height and width here */
+  width: 20vw;
+  height: 75vh;
   background-color: lightseagreen;
 }
 
 .image-section{
-  /* Add height and width here */
+  width: 70vw;
+  height: 50vh;
   background-color: aliceblue;
-  /* Add flex properties here */
+  display: flex;
+  flex-direction: column;
   text-align: left;
 }
 
-footer{
-  /* Add height and width here */
+footer {
+  height: 30vh;
+  width: 100vw;
   background-color: lime;
 }
