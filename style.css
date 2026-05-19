@@ -3,14 +3,14 @@
 }
 header{
   height: 35vh;
-  width: 100vw;
+  width: 100%;
   background-color: lightcyan;
   text-align: center;
 }
 
 .middle-section{
   height: 75vh;
-  width: 100vw;
+  width: 80vw;
   display: flex;
   flex-direction: row;
 }
@@ -32,6 +32,6 @@ aside{
 
 footer {
   height: 30vh;
-  width: 100vw;
+  width: 100%;
   background-color: lime;
 }
